@@ -320,7 +320,7 @@ public class FormSistema extends javax.swing.JFrame {
 
                     d.setClube(txtBusca.getText());
                     int pos = Collections.binarySearch(lista, d, comparePosicao);
-                    JOptionPane.showMessageDialog(null, "Posicao do jogador em campo, posicao " + (pos + 1));
+                    JOptionPane.showMessageDialog(null, "Posicao do jogador em campo, posicao " + pos);
                 }
                 break;
             case 4:
@@ -337,7 +337,7 @@ public class FormSistema extends javax.swing.JFrame {
 
                     d.setNivel(txtBusca.getText());
                     int pos = Collections.binarySearch(lista, d, compareNivel);
-                    JOptionPane.showMessageDialog(null, "Nível do jogador encontrado, posicao " + (pos + 1));
+                    JOptionPane.showMessageDialog(null, "Nível do jogador encontrado, posicao " + pos);
                 }
                 break;
 
